@@ -1,0 +1,13 @@
+# this is the first version of code
+import sys
+import os
+path = os.path.abspath(os.getcwd())
+sys.path.append(path+'\\src')
+from firstmod import test1
+<<<<<<< HEAD
+print("hello4")
+=======
+print("hello3")
+>>>>>>> e1d9112a04be15ea647366e34c70dad71ebd6339
+print(test1(20))
+
