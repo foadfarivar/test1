@@ -4,6 +4,6 @@ import os
 path = os.path.abspath(os.getcwd())
 sys.path.append(path+'\\src')
 from firstmod import test1
-print("hello")
+print("hello2")
 print(test1(20))
 
